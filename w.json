@@ -1,0 +1,30 @@
+{
+  "type": 9,
+  "controllers": {
+    "intimacy_system": {},
+    "slot_opacity": {},
+    "slot_color": {}
+  },
+  "motions": {
+    "idle": [
+      {
+        "file": "Relax"
+      }
+    ]
+  },
+  "options": {
+    "edge_padding": false
+  },
+  "skeleton": "build_char_358_lisa_lxh#1.skel",
+  "atlases": [
+    {
+      "atlas": "build_char_358_lisa_lxh#1.atlas",
+      "tex_names": [
+        "build_char_358_lisa_lxh#1"
+      ],
+      "textures": [
+        "build_char_358_lisa_lxh#1.png"
+      ]
+    }
+  ]
+}
