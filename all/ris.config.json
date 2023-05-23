@@ -1,0 +1,23 @@
+{
+  "type": 9,
+  "controllers": {
+    "intimacy_system": {},
+    "slot_opacity": {},
+    "slot_color": {}
+  },
+  "options": {
+    "edge_padding": false
+  },
+  "skeleton": "ris.skel",
+  "atlases": [
+    {
+      "atlas": "ris.atlas",
+      "tex_names": [
+        "ris"
+      ],
+      "textures": [
+        "ris.png"
+      ]
+    }
+  ]
+}
