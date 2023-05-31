@@ -1,0 +1,120 @@
+<html> 
+  <head> 
+    <title>Arknights/amiya</title> 
+<link href="test.css" rel="stylesheet">  
+<style>
+img{
+width: 500px;
+}
+</style>
+
+ <script>
+        function changeImage(imageUrl, newImageUrl) {
+            var image = document.getElementById("myImage");
+            image.src = imageUrl;
+            image.onload = function() {
+                setTimeout(function() {
+                    image.src = newImageUrl;
+                }, image.duration * 1000);
+            };
+        }
+    </script>
+
+
+
+</head> 
+  <body text=white link=white vlink=white alink=white > 
+
+
+<header>
+<img src="IMG\ARK.svg" width=120% height=120%>
+  <nav>
+       <a href="arknights main.html">오퍼레이터</a>
+  </nav>
+</header>
+<main>
+<a text=white ><h1>안젤리나/aglina<h1></a>
+
+<div style="display: flex; align-items: flex-start;">
+  <a href="aglina bop.html"><img src="IMG\opicon\aglina\war.png" style="width:100px; height:auto;"></a>
+  <a href="agkina summer.html"><img src="IMG\opicon\aglina\summ.png" style="width:100px; height:auto;"></a>
+</div>
+
+<div style="display: flex; align-items: flex-start;">
+  <button onclick="changeImage8()"><img src="IMG\icon\1-s.png" style="width:50px; height:auto;"></button>
+  <button onclick="changeImage9()"><img src="IMG\icon\2-s.png" style="width:50px; height:auto;"></button>
+</div>
+ <script>
+        function changeImage8() {
+            var image = document.getElementById("myImage2");
+            image.src = "IMG/opicon/aglina/aglina.png";
+        }
+        function changeImage9() {
+            var image = document.getElementById("myImage2");
+            image.src = "IMG/opicon/aglina/aglina2.png";
+        }
+ </script>
+
+
+              
+<img id="myImage2" src="IMG\opicon\aglina\aglina.png" alt="" align=left > 
+
+
+
+    
+<img id="myImage" src="IMG/opicon/aglina/rrs.gif" align=middle style="width: 300px; height:auto; top: 50px; ">
+      <p><button onclick="changeImage0()">relex</button>
+         <button onclick="changeImage1()">touch</button>
+         <button onclick="changeImage2()">sit</button>
+         <button onclick="changeImage3()">sleep</button>
+         <button onclick="changeImage7()">move</button>
+       
+      
+      <p><button onclick="changeImage4()">start</button>
+         <button onclick="changeImage5()">ldie</button>
+         <button onclick="changeImage6()">ldie2</button>
+
+   <script>
+        function changeImage0() {
+            var image = document.getElementById("myImage");
+            image.src = "IMG/opicon/aglina/rrs.gif";
+        }
+        function changeImage1() {
+            var image = document.getElementById("myImage");
+            image.src = "IMG/opicon/aglina/t.gif";
+        }
+        function changeImage2() {
+            var image = document.getElementById("myImage");
+            image.src = "IMG/opicon/aglina/s.gif";
+        }
+         function changeImage3() {
+            var image = document.getElementById("myImage");
+            image.src = "IMG/opicon/aglina/sl.gif";
+        }
+        function changeImage4() {
+            var image = document.getElementById("myImage");
+            image.src = "IMG/opicon/aglina/st.gif";
+
+        }
+        function changeImage5() {
+            var image = document.getElementById("myImage");
+            image.src = "IMG/opicon/aglina/ldie.gif";
+        }
+         function changeImage6() {
+            var image = document.getElementById("myImage");
+            image.src = "IMG/opicon/aglina/ldie2.gif";
+        }
+         function changeImage7() {
+            var image = document.getElementById("myImage");
+            image.src = "IMG/opicon/aglina/w.gif";
+        }
+
+
+
+    </script>
+
+    
+</main>
+
+</body>
+</html>

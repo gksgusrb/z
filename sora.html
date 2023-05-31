@@ -1,0 +1,100 @@
+<html> 
+  <head> 
+    <title>Arknights</title> 
+<link href="test.css" rel="stylesheet">  
+<style>
+img{
+width: 500px;
+}
+</style>
+
+<script>
+ function toggleImg() {
+    var img =document.getElementbyld("img");
+       img.src="IMG\sora\sps.gif"
+</script>
+    
+    <script>
+        function changeImage(imageUrl, newImageUrl) {
+            var image = document.getElementById("myImage");
+            image.src = imageUrl;
+            image.onload = function() {
+                setTimeout(function() {
+                    image.src = newImageUrl;
+                }, image.duration * 1000);
+            };
+        }
+    </script>
+
+</head> 
+  <body text=white link=white vlink=white alink=white > 
+
+
+<header>
+<img src="IMG\ARK.svg" width=120% height=120%>
+  <nav>
+       <a href="main.html">오퍼레이터</a>
+  </nav>
+</header>
+<main>
+<a text=white ><h1>소라/sora<h1></a>
+
+
+              <img src="IMG\sora\소라.png" alt="" align=left > 
+           
+    
+<img id="myImage" src="IMG\sora\relex.gif" align=middle style="width: 300px; height:auto; top: 50px; ">
+      <p><button onclick="changeImage0()">relex</button>
+         <button onclick="changeImage1()">sps</button>
+         <button onclick="changeImage2()">sit</button>
+         <button onclick="changeImage3()">sleep</button>
+         <button onclick="changeImage7()">move</button>
+       
+      
+      <p><button onclick="changeImage4()">start</button>
+         <button onclick="changeImage5()">ldie</button>
+         <button onclick="changeImage6()">stun</button>
+
+   <script>
+        function changeImage0() {
+            var image = document.getElementById("myImage");
+            image.src = "IMG/sora/relex.gif";
+        }
+        function changeImage1() {
+            var image = document.getElementById("myImage");
+            image.src = "IMG/sora/sps.gif";
+        }
+        function changeImage2() {
+            var image = document.getElementById("myImage");
+            image.src = "IMG/sora/sit.gif";
+        }
+         function changeImage3() {
+            var image = document.getElementById("myImage");
+            image.src = "IMG/sora/sleep.gif";
+        }
+        function changeImage4() {
+            var image = document.getElementById("myImage");
+            image.src = "IMG/sora/st.gif";
+
+        }
+        function changeImage5() {
+            var image = document.getElementById("myImage");
+            image.src = "IMG/sora/ldie.gif";
+        }
+         function changeImage6() {
+            var image = document.getElementById("myImage");
+            image.src = "IMG/sora/stun.gif";
+        }
+         function changeImage7() {
+            var image = document.getElementById("myImage");
+            image.src = "IMG/sora/w.gif";
+        }
+
+    </script>
+
+</main>
+
+
+
+</body>
+</html>	
